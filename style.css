@@ -41,16 +41,14 @@ button {
    }
 /* heart */ 
 
-.row{
-  height: 50px;
-}
+
 .column{
-  display: inline-table;
+  display: inline-block;
   margin-top: 10px;
   margin-left: 10px;
   vertical-align:middle;
   }
-  .placeholder {
+  .placeholder-input {
     border: 2px solid transparent;
     width: 18.5em;
     height: 2em;
@@ -60,10 +58,11 @@ button {
     background-color: #fbfbfb;
     border-radius: 10px;
     transition: all 0.5s;
+    display: inline-block;
   }
   
-  .placeholder:hover,
-  .placeholder:focus {
+  .placeholder-input:hover,
+  .placeholder-input:focus {
     border: 2px solid #4A9DEC;
     box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
     background-color: white;
@@ -76,7 +75,7 @@ button {
     height: 20px;
     transition: .3s;
     margin:3px;
-    
+    display: inline-block;
   }
 
 
